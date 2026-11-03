@@ -1,29 +1,25 @@
-# AURA & ATELIER ✦ Mood-Based Shopping & Smart Style Discovery
-
 <div align="center">
 
 ![Aura & Atelier Banner](https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1400&q=80)
 
+# AURA & ATELIER
 ### *“Shopping That Feels Like YOU.”*
-**An intelligent luxury fashion atelier that pairs your current mood with automated personal styling.**
+**An intelligent luxury fashion atelier pairing real-time mood alignment with automated 5-category personal styling.**
 
----
+<br />
 
-### 🌐 [CLICK HERE TO OPEN LIVE PROTOTYPE (https://shopping-alpha-pied.vercel.app)](https://shopping-alpha-pied.vercel.app/)
-> **Live Production URL:**  
-> **[https://shopping-alpha-pied.vercel.app](https://shopping-alpha-pied.vercel.app/)**  
-> *Local Development Server:* **`http://localhost:5173`**
+[![Live Prototype](https://img.shields.io/badge/✦_VISIT_LIVE_PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shopping-alpha-pied.vercel.app/)
 
----
+<br />
 
-[![Live Demo](https://img.shields.io/badge/Vercel-LIVE_PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shopping-alpha-pied.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Snigdha-0210/shopping)
-[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
-[![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![React](https://img.shields.io/badge/React-19.0-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=flat-square)](LICENSE)
 
-[**Explore Live Prototype**](https://shopping-alpha-pied.vercel.app/) • [**View Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
+<br />
+
+[**Explore Live Prototype**](https://shopping-alpha-pied.vercel.app/) • [**System Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
 
 </div>
 
