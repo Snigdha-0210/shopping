@@ -9,21 +9,21 @@
 
 ---
 
-### 🌐 [CLICK HERE TO ACCESS YOUR LIVE VERCEL PROTOTYPE](https://vercel.com/snigdha-0210)
-> **Direct Production Access:**  
-> Open your Vercel Dashboard at **[https://vercel.com/snigdha-0210](https://vercel.com/snigdha-0210)** and click **"Visit"** to view your deployed site.  
+### 🌐 [CLICK HERE TO OPEN LIVE PROTOTYPE (https://shopping-alpha-pied.vercel.app)](https://shopping-alpha-pied.vercel.app/)
+> **Live Production URL:**  
+> **[https://shopping-alpha-pied.vercel.app](https://shopping-alpha-pied.vercel.app/)**  
 > *Local Development Server:* **`http://localhost:5173`**
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/Vercel-LIVE_PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/snigdha-0210)
+[![Live Demo](https://img.shields.io/badge/Vercel-LIVE_PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shopping-alpha-pied.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Snigdha-0210/Shopping_Website)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[**Explore Live Prototype**](https://vercel.com/snigdha-0210) • [**View Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
+[**Explore Live Prototype**](https://shopping-alpha-pied.vercel.app/) • [**View Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
 
 </div>
 
@@ -138,18 +138,18 @@ The entire experience revolves around two foundational pillars:
 flowchart TD
     Client["Client Browser (React 19 + TypeScript + Tailwind CSS)"]
     
-    subgraph State Management
+    subgraph StateMgmt["State Management"]
         AuthCtx["AuthContext (User Persona, Saved Looks, Wishlist, Orders)"]
         ShopCtx["ShoppingContext (Active Mood, Cart Drawer, Look Canvas State)"]
     end
 
-    subgraph Recommendation & Styling Engines
+    subgraph StylingEngines["Recommendation & Styling Engines"]
         MoodEngine["MoodRecalibrator (Dynamic Tag Recalibration)"]
         LookEngine["CompleteLookStylist (5-Category Fashion Synergy Matrix)"]
         PersonalizeEngine["PersonalizedRecommender (Weighted Tag & History Scoring)"]
     end
 
-    subgraph User Experience Pages
+    subgraph UXPages["User Experience Pages"]
         Home["HomePage ('Shopping That Feels Like YOU')"]
         MoodPage["MoodShoppingPage (10 Mood Auras + Faceted Filters)"]
         LookStudio["CompleteLookStudio (Dedicated Mannequin Lookboard)"]
@@ -160,15 +160,15 @@ flowchart TD
         Checkout["CheckoutPage (Bundle Discounts, Order Simulation)"]
     end
 
-    subgraph Data & Persistence
+    subgraph DataStorage["Data & Persistence"]
         LocalStorage["Client Storage (Zero-Config Immediate Persistence)"]
         Firebase["Firebase Auth & Firestore (Connected Ready)"]
     end
 
-    Client --> StateManagement
-    StateManagement --> Recommendation & Styling Engines
-    Recommendation & Styling Engines --> User Experience Pages
-    StateManagement --> Data & Persistence
+    Client --> StateMgmt
+    StateMgmt --> StylingEngines
+    StylingEngines --> UXPages
+    StateMgmt --> DataStorage
 ```
 
 ---
