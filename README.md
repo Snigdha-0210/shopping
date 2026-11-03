@@ -1,13 +1,21 @@
-# AURA & ATELIER ✦ Mood-Based Shopping & Smart Look Discovery
+# AURA & ATELIER ✦ Mood-Based Shopping & Smart Style Discovery
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-6.1-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+<div align="center">
 
-> **"Shopping That Feels Like YOU."**  
-> An editorial, intelligent e-commerce atelier reimagining fashion discovery through emotional mood alignment and automated personal styling.
+![Aura & Atelier Banner](https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1400&q=80)
+
+### *“Shopping That Feels Like YOU.”*
+**An intelligent luxury fashion atelier that pairs your current mood with automated personal styling.**
+
+[![Live Demo](https://img.shields.io/badge/Vercel-Live_Production_Prototype-black?style=for-the-badge&logo=vercel)](https://github.com/Snigdha-0210/Shopping_Website)
+[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+[**Explore Live Prototype**](https://github.com/Snigdha-0210/Shopping_Website) • [**View Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
+
+</div>
 
 ---
 
@@ -15,67 +23,102 @@
 
 - [Concept & Philosophy](#-concept--philosophy)
 - [Signature Features](#-signature-features)
-  - [1. Mood-Based Shopping](#1-mood-based-shopping-primary-feature)
-  - [2. Complete My Look Studio](#2-complete-my-look-signature-feature)
-  - [3. Find Your Aesthetic](#3-find-your-aesthetic-interactive-discovery)
-  - [4. Smart Product Recommendation Engine](#4-smart-product-recommendation-engine)
-  - [5. Editorial Lookbooks & Capsule Edits](#5-editorial-lookbooks--capsule-edits)
+  - [1. Mood-Based Shopping](#-signature-feature-1-mood-based-shopping)
+  - [2. Complete My Look Studio](#-signature-feature-2-complete-my-look)
+  - [3. Find Your Aesthetic](#-feature-3-find-your-aesthetic)
+  - [4. Smart Recommendation Engine](#-feature-4-smart-recommendation-engine)
+  - [5. Editorial Collections & Lookbooks](#-feature-5-editorial-collections--lookbooks)
+- [Visual Experience Preview](#-visual-experience-preview)
 - [System Architecture](#-system-architecture)
-- [Styling Recommendation Algorithm](#-styling-recommendation-algorithm)
-- [Visual Design System](#-visual-design-system)
-- [The 10 Moods Matrix](#-the-10-moods-matrix)
-- [Project Directory Structure](#-project-directory-structure)
-- [Getting Started](#-getting-started)
-- [Deployment](#-deployment)
+- [Algorithmic Styling Flow](#-algorithmic-styling-flow)
+- [The 10 Moods Matrix (Visual Table)](#-the-10-moods-matrix)
+- [Curated Aesthetics & Occasions](#-curated-aesthetics--occasions)
+- [Color System & Typography](#-color-system--typography)
+- [Directory Structure](#-directory-structure)
+- [Getting Started Locally](#-getting-started-locally)
+- [Deployment on Vercel](#-deployment-on-vercel)
 - [License](#-license)
 
 ---
 
 ## 🕊 Concept & Philosophy
 
-Traditional e-commerce platforms present cold grids, generic categories, and endless filtering lists. **AURA & ATELIER** breaks this mold by functioning as an intimate luxury boutique, a sensory editorial lookbook, and an AI personal stylist.
+Traditional e-commerce platforms present cold grids, endless categories, and generic filters. **AURA & ATELIER** replaces that friction with an intuitive luxury boutique experience guided by emotion and curated by an intelligent personal stylist.
 
-The core journey is anchored in two synchronized pillars:
+The entire experience revolves around two foundational pillars:
 1. **Mood-Based Shopping**: Shop according to how you feel right now.
-2. **Complete My Look**: Select any single piece you love, and the atelier algorithm harmonizes the rest of the outfit with an automated **15% bundle discount**.
+2. **Complete My Look**: Choose any single anchor piece you adore, and let our styling matrix harmonize the matching shoes, bags, fine jewelry, and outerwear with a **15% bundle discount**.
 
 ---
 
 ## 🌟 Signature Features
 
-### 1. Mood-Based Shopping *(Primary Feature)*
+### 💎 Signature Feature 1: Mood-Based Shopping
+> *"Shop according to how you feel."*
+
 - **10 Distinct Mood Identities**: Elegant, Casual, Party, Luxury, Minimal, Streetwear, Chic, Vintage, Romantic, and Sporty.
-- **Dynamic Recalibration**: Selecting a mood instantly shifts the color aura, editorial narrative, stylist keywords, and curated product collections in real time.
-- **Full Faceted Refinements**: Refine by price tiers, color swatches, sizes, brands, and categories without losing mood context.
+- **Dynamic Real-Time Recalibration**: Selecting a mood does not simply alter a heading. The platform dynamically recalibrates every garment recommendation, color aura gradient, atmospheric quote, and designer keyword instantly.
+- **Faceted Filters**: Seamlessly filter by price ranges, color swatches, sizes, brands, and categories while preserving mood integrity.
 
-### 2. Complete My Look *(Signature Feature)*
-- **"Love one piece? Let us style the rest."**
-- Every product card across the entire catalog features a **"Complete My Look"** trigger.
+---
+
+### ✨ Signature Feature 2: Complete My Look
+> *"Love one piece? Let us style the rest."*
+
+- **Prominent Everywhere**: Accessible from the sticky navigation bar, homepage spotlights, product detail pages, and **every single product card**.
 - **5-Category Harmonization Matrix**:
-  - **Clothing** (outerwear/layers/tops/trousers)
-  - **Footwear** (stiletto pumps, loafers, retro trainers, metallic heels)
-  - **Bags** (structured trapeze totes, crystal clutches, croissant shoulder bags)
-  - **Jewellery** (baroque pearl drops, herringbone chains, Swiss watches, tennis bracelets)
-  - **Accessories** (acetate cat-eye shades, silk scarves, reversible belts)
+  1. **Clothing** (outerwear/jackets, tailored trousers, silk shirts)
+  2. **Footwear** (stiletto pumps, Blake-stitched loafers, retro court trainers, strappy sandals)
+  3. **Bags** (Italian box calfskin handbags, crystal minaudières, slouchy croissant bags)
+  4. **Jewellery** (baroque pearl drops, herringbone chains, Swiss watches, crystal tennis bracelets)
+  5. **Accessories** (acetate cat-eye sunglasses, hand-rolled silk scarves, reversible belts)
 - **Interactive Mannequin Canvas**:
-  - Live preview board with swappable components.
-  - Automatic **15% Bundle Savings** calculation.
-  - **"Add Complete Look to Bag"** in a single synchronized click.
-  - **"Save This Look"** with custom naming to the user's permanent profile lookbook.
+  - Live lookboard preview with toggleable pieces.
+  - Real-time combined pricing with **15% bundle discount** applied automatically.
+  - **"Add Complete Look to Bag"**: Injects all coordinated items in one click with celebratory confetti.
+  - **"Save This Look"**: Persists custom-named outfit lookbooks directly to your profile.
+  - **"Buy Only This"**: Option to acquire individual items separately.
 
-### 3. Find Your Aesthetic (Interactive Discovery)
-- **10 Fashion Aesthetics**: Old Money, Coquette, Street Style, Clean Girl, Dark Academia, Minimalist, Y2K, Quiet Luxury, Bohemian, Classic.
+---
+
+### 🧭 Feature 3: Find Your Aesthetic
+> *"Discover your personal fashion DNA."*
+
+- **10 Curated Aesthetics**: Old Money, Coquette, Street Style, Clean Girl, Dark Academia, Minimalist, Y2K, Quiet Luxury, Bohemian, Classic.
 - **8 Occasion Filters**: College, Office & Work, Date Night, Wedding Guest, Resort Vacation, Party & Nightlife, Casual Outings, Festive Wear.
-- Multi-select interactive console with live budget ceiling sliders and color tone matching.
+- Multi-select interactive quiz console with dynamic budget sliders and tone matching.
 
-### 4. Smart Product Recommendation Engine
-- **Weighted Multi-Factor Scoring**:
-  $$\text{Score} = (\text{Mood Match} \times 35) + (\text{Aesthetic Matches} \times 20) + (\text{Occasion Match} \times 15) + (\text{Color Affinity} \times 10) + (\text{Budget Fit} \times 10)$$
-- Real-time tracking of recently viewed garments and browsed preferences.
+---
 
-### 5. Editorial Lookbooks & Capsule Edits
-- Magazine-style visual collections: *"The Elegant Edit"*, *"Minimal Wardrobe"*, *"Party Ready"*, and *"Everyday Essentials"*.
-- Quick-View modal with 360-feel imagery, size picker, and instant outfit styling links.
+### 🧠 Feature 4: Smart Recommendation Engine
+- **Weighted Multi-Factor Scoring Engine**:
+  $$\text{Score} = (\text{Mood Match} \times 35) + (\text{Aesthetic Affinity} \times 20) + (\text{Occasion Match} \times 15) + (\text{Color Synergy} \times 10) + (\text{Budget Fit} \times 10)$$
+- Real-time browsing history tracking and recently viewed pieces.
+- Sections: *"Picked Just for You"*, *"Trending in [Active Mood]"*, *"Complete Your Look With This Piece"*, and *"Similar Creations"*.
+
+---
+
+### 📸 Feature 5: Editorial Collections & Lookbooks
+- Visual storytelling editions: *"The Elegant Edit"*, *"Minimal Wardrobe"*, *"Party Ready"*, and *"Everyday Essentials"*.
+- Quick-View modal with 360-degree imagery, thumbnail switcher, live size/color selectors, and direct lookbuilder launch.
+
+---
+
+## 🖼 Visual Experience Preview
+
+<div align="center">
+
+| Editorial Curation | Complete My Look Canvas |
+| :---: | :---: |
+| <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=700&q=80" width="400" alt="Editorial Fashion" /> | <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=700&q=80" width="400" alt="Evening Gown Look" /> |
+| *Editorial Photography & Atmosphere* | *Live Outfit Coordination & Styling* |
+
+| Old Money & Tailoring | Clean Girl & Minimal |
+| :---: | :---: |
+| <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=80" width="400" alt="Old Money Aesthetic" /> | <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=700&q=80" width="400" alt="Clean Girl Aesthetic" /> |
+| *Heirloom British & Italian Woolens* | *Architectural Silhouettes & Monochromes* |
+
+</div>
 
 ---
 
@@ -83,44 +126,44 @@ The core journey is anchored in two synchronized pillars:
 
 ```mermaid
 flowchart TD
-    Client["Client Browser (React 19 + TypeScript + Tailwind)"]
+    Client["Client Browser (React 19 + TypeScript + Tailwind CSS)"]
     
     subgraph State Management
-        AuthCtx["AuthContext (User, Saved Looks, Wishlist, Orders)"]
-        ShopCtx["ShoppingContext (Active Mood, Cart, Bundles, QuickView)"]
+        AuthCtx["AuthContext (User Persona, Saved Looks, Wishlist, Orders)"]
+        ShopCtx["ShoppingContext (Active Mood, Cart Drawer, Look Canvas State)"]
     end
 
     subgraph Recommendation & Styling Engines
-        MoodEngine["MoodRecalibrator (Tag Scoring)"]
-        LookEngine["CompleteLookStylist (5-Category Harmony Matrix)"]
-        PersonalizeEngine["PersonalizedRecommender (Multi-Factor Scoring)"]
+        MoodEngine["MoodRecalibrator (Dynamic Tag Recalibration)"]
+        LookEngine["CompleteLookStylist (5-Category Fashion Synergy Matrix)"]
+        PersonalizeEngine["PersonalizedRecommender (Weighted Tag & History Scoring)"]
     end
 
     subgraph User Experience Pages
         Home["HomePage ('Shopping That Feels Like YOU')"]
         MoodPage["MoodShoppingPage (10 Mood Auras + Faceted Filters)"]
-        LookStudio["CompleteLookStudio (Dedicated Mannequin Canvas)"]
+        LookStudio["CompleteLookStudio (Dedicated Mannequin Lookboard)"]
         StylePage["StyleDiscoveryPage (Aesthetic & Occasion Quiz)"]
-        Catalog["ShopPage (All Products Catalogue)"]
+        Catalog["ShopPage (Curated Product Catalogue)"]
         Details["ProductDetailsPage (Specs + Inline Look Matcher)"]
-        Profile["ProfilePage (Saved Looks, Persona, Orders)"]
-        Checkout["CheckoutPage (Bundle Discounts, Order Generation)"]
+        Profile["ProfilePage (Saved Looks, Style Persona, Order History)"]
+        Checkout["CheckoutPage (Bundle Discounts, Order Simulation)"]
     end
 
-    subgraph Persistence Layer
-        LocalStorage["Client Storage (State Persistence)"]
-        Firebase["Firebase Firestore & Authentication (Ready)"]
+    subgraph Data & Persistence
+        LocalStorage["Client Storage (Zero-Config Immediate Persistence)"]
+        Firebase["Firebase Auth & Firestore (Connected Ready)"]
     end
 
     Client --> StateManagement
     StateManagement --> Recommendation & Styling Engines
     Recommendation & Styling Engines --> User Experience Pages
-    StateManagement --> Persistence Layer
+    StateManagement --> Data & Persistence
 ```
 
 ---
 
-## 🔄 Complete My Look Flowchart
+## 🔄 Algorithmic Styling Flow
 
 ```mermaid
 sequenceDiagram
@@ -133,7 +176,7 @@ sequenceDiagram
 
     Customer->>Card: Clicks "Complete My Look"
     Card->>Stylist: Sends Hero Product (Mood, Aesthetic, Color, Occasion)
-    Stylist->>Stylist: Harmonizes Clothing, Shoes, Bag, Jewels, Accessories
+    Stylist->>Stylist: Harmonizes Clothing, Shoes, Bags, Jewelry, Accessories
     Stylist->>Canvas: Renders Outfits & 15% Look Discount
     Customer->>Canvas: Toggles / Customizes Complementary Pieces
     Canvas->>Canvas: Recalculates Bundle Price & Savings
@@ -148,35 +191,54 @@ sequenceDiagram
 
 ---
 
-## 🎨 Visual Design System
-
-- **Warm Ivory & Cream**: `#FAF8F5`, `#F5F2EB`, `#EBE6DD`
-- **Soft Taupe & Sand**: `#C4B5A5`, `#B8977E`, `#E2D7CF`
-- **Noir & Rich Charcoal**: `#171615`, `#1C1917`, `#292524`
-- **Blush & Champagne Accents**: `#E8D5CE`, `#D4AF37`, `#C5A880`
-- **Serif Typography**: *Playfair Display* & *Cormorant Garamond*
-- **Sans Typography**: *Plus Jakarta Sans* & *Inter*
-
----
-
 ## 🔮 The 10 Moods Matrix
 
-| Mood | Tagline | Representative Silhouette | Stylist Keynotes |
-| :--- | :--- | :--- | :--- |
-| **Elegant** | *Timeless Grace & Poised Sophistication* | Mulberry Silk Cowl Backless Gown | Silk Slip, Peak Lapel Blazer, Stiletto Pumps, Baroque Pearls |
-| **Casual** | *Effortless Ease & Daily Composure* | Relaxed Cotton Poplin & Rigid Denim | Oversized Shirt, 90s Straight Jeans, Suede Trainers |
-| **Party** | *Electrifying Glamour & Nightfall Radiance* | Midnight Sequin Halter Mini Dress | Strappy Metallic Heels, Crystal Minaudière, Tennis Bracelet |
-| **Luxury** | *Opulent Finishes & Master Craftsmanship* | Double-Breasted Virgin Wool Blazer | Swiss Horology Timepiece, Box Calf Leather, Suede Loafers |
-| **Minimal** | *Purity of Form & Harmonious Neutrality* | Pleated Wide-Leg Crepe Trousers | Architectural Cuts, Boxy Poplin, Minimal Band Ring |
-| **Streetwear** | *Contemporary Edge & Urban Culture* | 480gsm Loopback Boxy Hoodie | Parachute Pants, Chunky Trainers, Industrial Silver Hoops |
-| **Chic** | *Parisian Allure & Polished Modernity* | Archival British Houndstooth Jacket | Pointed Kitten Heels, Beveled Acetate Cat-Eyes, Baguette Bag |
-| **Vintage** | *Nostalgic Romance & Heritage Silhouettes* | Hand-rolled Archival Silk Twill Scarf | Blake-Stitched Loafers, Brass Hardware, Heritage Tweed |
-| **Romantic** | *Soft Ethereal Tones & Whimsical Drapery* | Gossamer Floral Tiered Chiffon Maxi | Smocked Details, Pearl Choker, Ankle-Tie Ribbon Sandals |
-| **Sporty** | *Athletic Precision & Dynamic Motion* | 4-Way Stretch Seamless Compression Tank | Aerodynamic Outerwear, Performance Runner, Technical Nylon |
+| Mood | Visual Identity | Tagline | Representative Silhouette | Stylist Keynotes |
+| :--- | :---: | :--- | :--- | :--- |
+| **Elegant** | <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Timeless Grace & Poised Sophistication* | Mulberry Silk Cowl Backless Gown | Silk Slip, Peak Lapel Blazer, Stiletto Pumps, Baroque Pearls |
+| **Casual** | <img src="https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Effortless Ease & Daily Composure* | Relaxed Cotton Poplin & Rigid Denim | Oversized Shirt, 90s Straight Jeans, Suede Trainers |
+| **Party** | <img src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Electrifying Glamour & Nightfall Radiance* | Midnight Sequin Halter Mini Dress | Strappy Metallic Heels, Crystal Minaudière, Tennis Bracelet |
+| **Luxury** | <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Opulent Finishes & Master Craftsmanship* | Double-Breasted Virgin Wool Blazer | Swiss Horology Timepiece, Box Calf Leather, Suede Loafers |
+| **Minimal** | <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Purity of Form & Harmonious Neutrality* | Pleated Wide-Leg Crepe Trousers | Architectural Cuts, Boxy Poplin, Minimal Band Ring |
+| **Streetwear** | <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Contemporary Edge & Urban Culture* | 480gsm Loopback Boxy Hoodie | Parachute Pants, Chunky Trainers, Industrial Silver Hoops |
+| **Chic** | <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Parisian Allure & Polished Modernity* | Archival British Houndstooth Jacket | Pointed Kitten Heels, Beveled Acetate Cat-Eyes, Baguette Bag |
+| **Vintage** | <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Nostalgic Romance & Heritage Silhouettes* | Hand-rolled Archival Silk Twill Scarf | Blake-Stitched Loafers, Brass Hardware, Heritage Tweed |
+| **Romantic** | <img src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Soft Ethereal Tones & Whimsical Drapery* | Gossamer Floral Tiered Chiffon Maxi | Smocked Details, Pearl Choker, Ankle-Tie Ribbon Sandals |
+| **Sporty** | <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=120&q=80" width="55" height="55" style="border-radius: 50%; object-fit: cover;" /> | *Athletic Precision & Dynamic Motion* | 4-Way Stretch Seamless Compression Tank | Aerodynamic Outerwear, Performance Runner, Technical Nylon |
 
 ---
 
-## 📁 Project Directory Structure
+## 🎨 Curated Aesthetics & Occasions
+
+### Aesthetics
+- **Old Money**: Ivy League heritage, tennis bracelets, horsebit loafers, navy & cream.
+- **Coquette**: Satin ribbons, baby doll cuts, delicate lace, ballet flats.
+- **Street Style**: Boxy volume, utilitarian zippers, bold layering, metropolitan hype.
+- **Clean Girl**: Slick gold hoops, neutral matching sets, seamless bodysuits, glass skin.
+- **Dark Academia**: Oxford brogues, tweed blazers, pleated plaid midi skirts, leather satchels.
+- **Minimalist**: Architectural geometry, zero clutter, monochromatic restraint.
+- **Y2K**: Futurist chrome, rimless gradient shades, baby tees, platform soles.
+- **Quiet Luxury**: Logo-free cashmere, bespoke Italian tailoring, buttery suede.
+- **Bohemian**: Paisley maxis, fringe suede, stacked rings, woven raffia bags.
+- **Classic**: The eternal wardrobe—trench coats, crisp shirting, timeless leather totes.
+
+### Occasions
+`College` • `Office & Work` • `Date Night` • `Wedding Guest` • `Resort & Vacation` • `Party & Nightlife` • `Casual Outings` • `Festive Wear`
+
+---
+
+## 🎨 Color System & Typography
+
+- **Warm Ivory**: `#FAF8F5`, `#F5F2EB`, `#EBE6DD`
+- **Soft Taupe & Sand**: `#C4B5A5`, `#B8977E`, `#E2D7CF`
+- **Noir Charcoal**: `#171615`, `#1C1917`, `#292524`
+- **Gold Accents**: `#D4AF37`, `#C5A880`, `#F4E8C1`
+- **Headings**: *Playfair Display* & *Cormorant Garamond* (Google Fonts)
+- **Body & UI**: *Plus Jakarta Sans* & *Inter*
+
+---
+
+## 📁 Directory Structure
 
 ```
 website/
@@ -186,6 +248,7 @@ website/
 ├── tailwind.config.js           # Warm minimal palette, serif typography tokens
 ├── postcss.config.js            # PostCSS Autoprefixer setup
 ├── vite.config.ts               # Vite configuration (port 5173, host enabled)
+├── vercel.json                  # SPA routing rewrite rules for Vercel
 ├── src/
 │   ├── main.tsx                 # Application DOM bootstrap
 │   ├── App.tsx                  # Master router & modal container
@@ -226,13 +289,8 @@ website/
 
 ---
 
-## 💻 Getting Started
+## 💻 Getting Started Locally
 
-### Prerequisites
-- [Node.js](https://nodejs.org/) (v18 or higher recommended)
-- `npm` or `pnpm`
-
-### Installation
 ```bash
 # Clone the repository
 git clone https://github.com/Snigdha-0210/Shopping_Website.git
@@ -243,31 +301,29 @@ cd Shopping_Website
 # Install dependencies
 npm install
 
-# Start development server
+# Start local development server
 npm run dev
 ```
 
-The application will launch on `http://localhost:5173`.
+Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deployment on Vercel
 
-### Deploy on Vercel
-This project is pre-configured for zero-configuration instant deployment on [Vercel](https://vercel.com):
+The application is fully configured for deployment on [Vercel](https://vercel.com):
 
-```bash
-# Deploy with Vercel CLI
-npx vercel
-```
-Or connect your GitHub repository directly to Vercel via the Vercel Dashboard for automated continuous deployment on every `git push`.
+1. **Push updates to `main`**: Vercel automatically deploys every commit.
+2. **SPA Routing**: `vercel.json` provides rewrite rules routing all traffic to `/index.html` preventing 404s on subpages.
 
 ---
 
 ## 📜 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
 
 ---
 
-*Designed & Architected with intentionality by [Snigdha Gorai](https://github.com/Snigdha-0210).*
+<div align="center">
+  <b>Designed & Architected with intentionality by <a href="https://github.com/Snigdha-0210">Snigdha Gorai</a></b>
+</div>
