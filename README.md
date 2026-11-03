@@ -17,7 +17,7 @@
 ---
 
 [![Live Demo](https://img.shields.io/badge/Vercel-LIVE_PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://shopping-alpha-pied.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Snigdha-0210/Shopping_Website)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Snigdha-0210/shopping)
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -303,10 +303,10 @@ website/
 
 ```bash
 # Clone the repository
-git clone https://github.com/Snigdha-0210/Shopping_Website.git
+git clone https://github.com/Snigdha-0210/shopping.git
 
 # Navigate into project directory
-cd Shopping_Website
+cd shopping
 
 # Install dependencies
 npm install
