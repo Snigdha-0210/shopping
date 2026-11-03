@@ -7,13 +7,23 @@
 ### *“Shopping That Feels Like YOU.”*
 **An intelligent luxury fashion atelier that pairs your current mood with automated personal styling.**
 
-[![Live Demo](https://img.shields.io/badge/Vercel-Live_Production_Prototype-black?style=for-the-badge&logo=vercel)](https://github.com/Snigdha-0210/Shopping_Website)
-[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+---
+
+### 🌐 [CLICK HERE TO ACCESS YOUR LIVE VERCEL PROTOTYPE](https://vercel.com/snigdha-0210)
+> **Direct Production Access:**  
+> Open your Vercel Dashboard at **[https://vercel.com/snigdha-0210](https://vercel.com/snigdha-0210)** and click **"Visit"** to view your deployed site.  
+> *Local Development Server:* **`http://localhost:5173`**
+
+---
+
+[![Live Demo](https://img.shields.io/badge/Vercel-LIVE_PROTOTYPE-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/snigdha-0210)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Snigdha-0210/Shopping_Website)
+[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](LICENSE)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-[**Explore Live Prototype**](https://github.com/Snigdha-0210/Shopping_Website) • [**View Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
+[**Explore Live Prototype**](https://vercel.com/snigdha-0210) • [**View Architecture**](#-system-architecture) • [**Complete My Look Engine**](#-signature-feature-2-complete-my-look) • [**The 10 Moods Matrix**](#-the-10-moods-matrix)
 
 </div>
 
